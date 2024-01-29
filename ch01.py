@@ -28,10 +28,10 @@ def main():
     st.write("+" * 10 + "-" * 10)
     st.markdown("$\.{a}$") # 라텍스 코드 적용 된다! 따옴표 안에 달러표시가 필요함!
     st.markdown("""
-                $$\begin{pmatrix}
+                $\begin{pmatrix}
                  a & b\\
                  c & d
-                \end{pmatrix}$$
+                \end{pmatrix}$
                 """) # 이건 달러가 들어가도 안되는데....
     
     st.latex(r'''
